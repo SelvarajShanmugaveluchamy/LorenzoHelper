@@ -23,8 +23,8 @@ export const routes: Routes = [
         loadChildren: './dashboard/dashboard.module#DashboardModule'
       },
       {
-        path: 'dashboard',
-        loadChildren: './dashboard/dashboard.module#DashboardModule'
+        path: 'request',
+        loadChildren: './request/request.module#RequestModule'
       },
       {
         path: 'components',
